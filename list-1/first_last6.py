@@ -6,3 +6,6 @@ def first_last6(nums):
 print(first_last6([1, 2, 6]))
 print(first_last6([6, 1, 2, 3]))
 print(first_last6([13, 6, 1, 2, 3]))
+
+return 6 in [nums[0]],nums[-1]
+
