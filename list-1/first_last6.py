@@ -9,3 +9,4 @@ print(first_last6([13, 6, 1, 2, 3]))
 
 return 6 in [nums[0]],nums[-1]
 
+#create new file following this format
