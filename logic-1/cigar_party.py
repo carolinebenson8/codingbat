@@ -2,7 +2,24 @@ def cigar_party(cigars, is_weekend):
     """When squirrels get together for a party, they like to have cigars. A squirrel party is successful when the number of cigars is between 40 and  60, inclusive. Unless it is the weekend, in which case there is no upper bound on the number of cigars. Return True if the party with the given values is successful, or False otherwise."""
     return is_weekend or (not is_weekend and 40 <= cigars <= 60)
 
+#true and true = true
+#false and true = false
+#true and false = false
+#false and false = false
+#anytime and has a false, it will be false
 
+#true or true = true
+#false or true = true
+#true or false = true
+#false or false = false
+
+    if is_weekend:
+        return True
+    else:
+        if 40 <= cigars <= 60:
+            return True
+    return False 
+    
 print(cigar_party(30, False))
 print(cigar_party(40, False))
 print(cigar_party(50, False))
